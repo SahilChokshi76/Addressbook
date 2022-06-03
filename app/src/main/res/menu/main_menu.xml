@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_baseline_filter_alt_24"
+        app:showAsAction="ifRoom"
+        android:title="Filter">
+
+        <menu>
+
+            <group
+                android:id="@+id/text_color_group"
+                android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/ace"
+                android:title="Ascending (A - Z)"/>
+
+                <item
+                    android:id="@+id/des"
+                    android:title="Descending (Z - A)" />
+            </group>
+
+        </menu>
+
+    </item>
+</menu>
